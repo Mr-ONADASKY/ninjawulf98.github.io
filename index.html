@@ -5,8 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        #css {
+            content: "test";
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello world</h1>
+    <h1 id="js">Javascript is not working</h1>
+    <p></p>
+    <h1 id="css">CSS is not working</h1>
 </body>
+<script>
+document.getElementById("js").innerHTML = "Hello world!";
+</script>
 </html>
